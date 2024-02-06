@@ -44,6 +44,10 @@ li i:hover {
     border-radius: 20px;
 }
 
+img {
+    margin: 14px;
+}
+
 .top-nav {
     display: flex;
     flex-direction: row;

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.Izzat Form Assignment</title>
+    <script src="https://kit.fontawesome.com/424af7f981.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" target="_self"><img src="assets\logo.svg" alt="website-logo"></a>
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+    </div>
+
+    <div class="content">
+        <p class="register-title">REGISTER YOUR BOOK</p>
+    
+        <form  method="post" action="form-result.html">
+            <div class="s-title">
+                <p class="s-title-detail">Book Details</p>
+                <div class="line">
+                </div>
+            </div>
+
+            <div class="form">
+                <label for="title">Title</label>
+                <input type="text" name="title" placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp">
+            </div>
+            <div class="form">
+                <label for="genre">Genre</label>
+                <input type="text" name="genre" placeholder="Your book genre here. E.g. Fantasy">
+            </div>
+            <div class="form">
+                <label for="author">Author</label>
+                <input type="text" name="author" placeholder="Your book author here. E.g. J.K.Rowling">
+            </div>
+            <div class="form">
+                <label for="publisher">Publisher</label>
+                <input type="text" name="publisher" placeholder="Publisher of the book. E.g. Pustaka Melang">
+            </div>
+            <div class="form">
+                <label for="year-published">Year Published</label>
+                <input type="number" name="year-published" placeholder="1994" maxlength=4 >
+            </div>
+            <div class="form-radio">
+                <p class="label">Availability</p>
+                <input type="radio" name="availability" value="online">
+                <label for="online">Online</label>
+                <input type="radio" name="availability" value="in-store">
+                <label for="in-store">In-store</label>
+                <input type="radio" name="availability" value="online-in-store">
+                <label for="online-in-store">Online & In store</label>
+            </div>
+            <div class="form">
+                <label for="pages">Pages</label>
+                <input type="number" name="pages" placeholder="514" maxlength=4>
+            </div>
+            <div class="form">
+                <label for="Language">Language</label>
+                <input type="text" name="Language" placeholder="Language used in the book. E.g. English"><br>
+            </div>
+
+            <div class="s-title">
+                <p class="s-title-detail">Registree Details</p>
+                <div class="line">
+                </div>
+            </div>
+
+            <div class="form">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Your name. E.g.Lannah Yeon">
+            </div>
+            <div class="form">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Your email. E.g. l.yeon@email.com">
+            </div>
+            <div class="form-checkbox">
+                <input type="checkbox" name="cbox">  
+                <label for="cbox"> I hereby agree to follow all rules and confirmed that all details are accurate</label> 
+            </div>
+            <input type="submit" value="SAVE YOUR BOOK" id="button">
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="top-footer">
+            <img src="assets\logo.svg" alt="">
+            <ul class="social">
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+        </div>
+
+        <div class="bottom-footer">
+            <div class="left-side">
+                <p>Terms and conditions</p>
+                <p>Privacy policy</p>
+            </div>
+
+            <div class="right-side">
+                <p>+44 132 412251</p>
+                <p>support@bookshelf.com</p>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
